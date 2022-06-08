@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="WEB_APP">
+  <test name="Command line test 40e9a76f-7873-464c-bab6-996a584b3266">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC001"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="HomePageModule"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 40e9a76f-7873-464c-bab6-996a584b3266 -->
+</suite> <!-- WEB_APP -->
